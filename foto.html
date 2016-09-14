@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Kursova</title>
+          <link rel="shortcut icon" href="images/computer.png" type="image/x-icon">
+		<link href="style.css" rel="stylesheet" type="text/css" />
+        <link href="styleDop.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.css" />
+        
+        <!--скріпти, бібліотека (jquery) джейк вері і стилі для вікна перегляду фото (модальне вікно)-->
+                    <script type="text/javascript" src="./scripts/jquery-1.4.3.min.js"></script> <!--підключаєм бібліотеку-->
+            <script type="text/javascript" src="./scripts/fancybox/jquery.mousewheel-3.0.4.pack.js"></script> <!--підключаєм скріпти і стилі-->
+	<script type="text/javascript" src="./scripts/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="./scripts/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+ 	<link rel="stylesheet" href="style.css" />
+        <!--KOD jquery-->
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("a.foto-gallery").fancybox({
+                    transitionIn: 'elastic',
+                    transitionOut: 'elastic',
+                    speedIn: 500,
+                    speedOut: 500,
+                });
+            });
+        </script>
+	</head>
+	<body>
+		<div id="wrapper">
+
+			<div id="masthead">
+                <a href="index.html"> <img src="images/logo3.png"  alt="AccuWeather" id="logo" /></a>
+				<p>У нас ви занайдете найпотужнішу коп`ютерну техніку. <br>Ми допоможемо вам зібрати машину вашої мрії!</p>
+                <p id="tel">+380964653729  </p>
+                <p id="tel2"> +380930002525 </p>
+			</div>
+            
+			<div id="blue-bar">
+				<ul>
+					<li><a href="index.html">Головна</a></li>
+					<li><a href="katalog.html">Каталог</a></li>
+					<li><a class="select" href="foto.html">Фото галерея</a></li>
+					<li><a href="proNas.html">Про нас</a></li>
+					<li><a href="kontaktna.html">Контакти</a></li>
+				</ul>
+                <!-- FontAwesome --> 
+                <div class="nn1">
+                           <!-- Пошта -->
+                      <script type="text/javascript" src="http://formdesigner.ru/js/widgets/popup.js"></script><a class="fa fa-envelope" target="_blank" onclick="FDPopup.open(40811, {'hideCloseBtn':false,'host':'formdesigner.ru','overlay':{'background':'#000000','opacity':0.1}}); return false;" href="http://formdesigner.ru/form/view/40811"></a>
+                            <!-- ВК -->
+                     <a href="https://vk.com/invasion_labs" target="_blank" class="fa fa-vk"></a>
+                            <!-- Форма зв'язку -->
+                     <script type="text/javascript" src="http://formdesigner.ru/js/widgets/popup.js"></script><a class="fa fa-phone" target="_blank" onclick="FDPopup.open(40787, {'hideCloseBtn':true,'host':'formdesigner.ru','overlay':{'background':'#ffffff','opacity':0.1}}); return false;" href="http://formdesigner.ru/form/view/40787"></a>
+                </div>
+			</div>
+			<div id="content-foto">
+				
+                    <h3 align="center">Фото галерея</h3>
+				<div class="galleri">	
+            <a rel="gallety" class="foto-gallery" href="gallery/big/01.png"><img src="gallery/big/01.png" width="450px" height="300px"></a>
+            <a rel="gallety" class="foto-gallery" href="gallery/big/02.png"><img src="gallery/big/02.png" width="450px" height="300px"></a>
+            <a rel="gallety" class="foto-gallery" href="gallery/big/03.png"><img src="gallery/big/03.png" width="450px" height="300px"></a>
+            <a rel="gallety" class="foto-gallery" href="gallery/big/04.png"><img src="gallery/big/04.png" width="450px" height="300px"></a>
+            <a rel="gallety" class="foto-gallery" href="gallery/big/05.png"><img src="gallery/big/05.png" width="450px" height="300px"></a>
+            <a rel="gallety" class="foto-gallery" href="gallery/big/06.png"><img src="gallery/big/06.png" width="450px" height="300px"></a>
+            <a rel="gallety" class="foto-gallery" href="gallery/big/07.png"><img src="gallery/big/07.png" width="450px" height="300px"></a>
+            <a rel="gallety" class="foto-gallery" href="gallery/big/08.png"><img src="gallery/big/08.png" width="450px" height="300px"></a>
+            <a rel="gallety" class="foto-gallery" href="gallery/big/09.png"><img src="gallery/big/09.png" width="450px" height="300px"></a>
+            <a rel="gallety" class="foto-gallery" href="gallery/big/10.png"><img src="gallery/big/10.png" width="450px" height="300px"></a>
+            <a rel="gallety" class="foto-gallery" href="gallery/big/11.png"><img src="gallery/big/11.png" width="450px" height="300px"></a>
+            <a rel="gallety" class="foto-gallery" href="gallery/big/12.png"><img src="gallery/big/12.png" width="450px" height="300px"></a>
+            <a rel="gallety" class="foto-gallery" href="gallery/big/13.png"><img src="gallery/big/13.png" width="450px" height="300px"></a>
+            <a rel="gallety" class="foto-gallery" href="gallery/big/14.png"><img src="gallery/big/14.png" width="450px" height="300px"></a>
+            <a rel="gallety" class="foto-gallery" href="gallery/big/15.png"><img src="gallery/big/15.png" width="450px" height="300px"></a>
+				</div>
+                
+			</div>
+            <!--Вушко Контакти-->
+            <script type="text/javascript">
+var _FDFeedBack = {
+	formId: 40787,
+	text: 'Контакти',
+	background: '#d38614',
+	color: '#ffffff',
+	fontSize: '14px',
+	borderRadius: 5,
+	buttonSide: 'right',
+	buttonAlign: 'center',
+	popup: {
+		hideCloseBtn: false,
+		host: 'formdesigner.ru',
+		overlay: {
+			background: '#000000',
+			opacity: 0.1	
+		}
+	}
+};
+(function() {
+	var fd = document.createElement('script'); fd.type = 'text/javascript'; fd.async = true;
+	fd.src = (document.location.protocol == 'https:' ? 'https:' : 'http:')+'//formdesigner.ru/js/widgets/feedback.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(fd, s);
+})();
+</script>
+			<div id="footer">
+				
+                 <div class="f-right2"> <p>Email: yaroslavio.konio@mail.ru</p></div>
+			</div>
+          </div>
+	</body>
+</html>

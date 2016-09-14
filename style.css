@@ -1,0 +1,315 @@
+/*==для всіх сторінок що є в меню і зовнішнього вигляду сайту!)==*/
+* { padding: 0; margin: 0; }
+a img { border: 0; }
+body {
+	background: #fff url('images/fon.png') fixed;
+    /*background-attachment: fixed;*/
+    /*background-repeat: repeat;*/
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+#wrapper {
+	width: 966px;
+	margin: 0 auto;
+	}
+
+/*===Лейбл===*/
+#masthead {
+	position: relative;
+	background: url('images/header-bg.png') #fff repeat-x;
+	border: 1px solid #8d8d8d;
+	height: 349px; padding-left: 28px; margin: 0 5px -2px;
+	background-position: -31px;
+	-webkit-box-shadow: 0 4px 2px 2px #b0b2b4;
+	}
+#masthead h2 {
+	width: 370px; padding-top: 110px;
+	font-size: 70px; line-height: 26px;  font-weight: bold; color: #383838;
+	}
+#logo{
+    position: relative;
+    top: 40px;
+    left: -75px
+}
+#logo2{
+    padding-top: 20px;
+    
+}
+#text-glav{
+    float: left;
+    padding: 5px 20px 20px;
+    /*padding-top: 5px;*/
+    width: 570px;
+    /*height: 220px;*/
+    text-align: justify
+}
+#text-kontaktna{
+    padding: 20px;
+    padding-top: 5px;
+    width: 570px;
+    text-align: justify;
+}
+
+.meps{
+    width: 520px;
+    height: 512px;
+    position: absolute;
+    left: 430px;
+    top: 45px;
+    }
+.VK{
+    position: absolute;
+    left: 20px;
+    width: 390px;
+    height: 200px;   
+    }
+#text-proNas{
+   padding: 20px;
+    padding-top: 5px;
+    text-align: justify  
+}
+
+#z1{font-size: 27px; font-weight: 800}
+#z2{font-size: 19px;
+    font-weight: 700}
+
+#masthead p {
+	width: 445px; padding: 61px 0 30px;
+	font-family: Georgia, serif; font-size: 16px; line-height: 20px; color: #4f4f4f;
+	}
+#tel{
+    position: absolute;
+    top: 230px;
+    left: 50px;
+}
+#tel2{
+    position: absolute;
+    top: 230px;
+    left: 220px;
+}
+/*===Меню===*/
+#blue-bar {
+	position: relative; z-index: 10;
+	background: url('images/blue-bar.png') no-repeat;
+	width: 966px; height: 59px;
+	color: #fff; text-shadow: 1px 1px 0 #2e5668;
+	}
+#blue-bar ul {
+	font-family: Georgia, serif; font-style: italic;
+	float: right;
+	list-style: none;
+	padding: 15px 310px 0 0;
+	}
+#blue-bar ul a:hover  /* =Подсветка меню=*/
+{
+    color: #000000;
+    
+}
+#blue-bar li {
+	float: left;
+	
+	padding: 0 30px 0px 0px;
+    
+    font-size: 20px;
+	}
+#blue-bar li:first-child {
+	border-left: 0;
+
+	}
+#blue-bar li a {
+	color: #fff;
+	text-decoration: none;
+	}
+.expand {
+	display: inline-block;
+	padding-left: 24px; margin: 18px 0 0 27px;
+	color: #cacaca; text-decoration: none;
+	}
+
+#main {
+	/*background: url('images/main-bg.png') top center repeat-y;*/
+      position: relative;
+    background: #cbcbcb;
+	padding-bottom: 50px;
+	}
+#content-index{
+  background: #cbcbcb;
+   height: 250px; 
+}
+#content-kontaktna{
+    position: relative;
+    background: #cbcbcb;
+    height: 600px;
+}
+
+
+#content {
+	float: left;
+	width: 610px; margin-left: 6px; padding: 42px 19px 0 20px;
+	}
+
+#content2 {
+	background: #cbcbcb;
+	}
+
+#content h2 {
+	font-size: 43px; font-weight: normal; text-shadow: 1px 1px 0 #fff;
+	padding-bottom: 20px; margin-bottom: 45px;
+	border-bottom: 1px solid #fff;
+	background: url('images/gray-border.png') bottom left repeat-x;
+	}
+.post {
+	margin-bottom: 40px;
+	}
+.post-thumbnail {
+	float: left;
+	}
+.post-title{
+    color: black;
+}
+.post-title:hover  /* =Подсветка названия=*/
+{
+    color: #bc8f2a;
+}
+.post h3 {
+	float: left; display: inline-block;
+	font-size: 23px; font-weight: normal;
+	padding-left: 25px;
+	}
+.features {
+	padding-top: 7px;
+	}
+.features li {
+	float: left; display: inline;
+	background: url('images/check.png') center left no-repeat;
+	font-size: 12px;
+	padding-left: 25px; margin-left: 16px;
+	}
+.post p {
+	clear: left;
+	float: right; margin-top: -40px; padding-left: 97px;
+	font-size: 14px; line-height: 22px; color: #454545;
+	}
+.details {
+	display: inline-block;
+	padding: 4px 10px; margin-left: 5px;
+	background: #868686;
+	font-family: Verdana, san-serif; font-size: 10px; line-height: 1em;
+	color: #fff; text-decoration: none; text-transform: lowercase;
+	border-bottom: 1px solid #a1a1a1;
+	-webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px;
+	}
+.details:hover  /* =Подсветка кнопки деталі=*/
+{
+    color: #45ff00;
+}
+.select {
+    color: rgba(0, 0, 0, 0.85) !important; /* =Подсветка кнопки деталі горить открита сторінка=*/
+}
+#coments {
+	float: left;
+	width: 256px; 
+    padding-top: 10px;
+   position: relative;
+    right: 20px;
+	}
+#coments h3 {
+	font-size: 18px; font-weight: normal; 
+	
+	}
+#twitter_update_list {
+	padding-bottom: 18px;
+	border-bottom: 1px solid #ebebeb;
+	}
+#twitter_update_list li {
+	font-family: Georgia, serif; font-size: 13px; line-height: 20px; color: #4f4f4f;
+	list-style-type: none;
+	background: url('images/twitter.png') no-repeat;
+	background-position: 0px 4px;
+	padding-left: 25px; padding-bottom: 10px;
+	}
+#twitter_update_list a {
+	color: #969696; text-decoration: none;
+	}
+#twitter_update_list a[style="font-size: 85%;"] {
+	display: block;
+	}
+h3.subscribe {
+	padding-top: 16px; padding-left: 6px;
+	border-top: 1px solid #7f7f7f;
+	}
+#email-subscribe {
+	padding-left: 12px;
+	}
+#email-subscribe label {
+	display: block;
+	font-family: Georgia, serif; font-size: 11px; color: #6d6c6c; text-shadow: 1px 1px 0px #e9e9e9;
+	padding-bottom: 10px;
+	}
+#email {
+	background: #f5f5f5;
+	border: 1px solid #b1b1b1;
+	width: 215px; height: 34px;
+	-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;
+	}
+#footer {
+	font-size: 11px; font-style: italic; font-family: Georgia, serif; color: #4f4f4f;
+	background: url('images/main-bottom.png') top center no-repeat;
+	padding: 29px 8px 30px 3px;
+	}
+#footer-index{
+
+	background: url('images/main-bottom.png') top center no-repeat;
+	padding: 0px 0px 10px 3px;
+	}   
+}
+#footer a {
+	color: #4f4f4f; text-decoration: none;
+	}
+	
+.f-left { float: left; }
+
+.f-right2{
+    width: 170px;
+    height: 20px;
+    position: relative;
+    top: -10px;
+    left: 790px;
+  color: #f0f0f0;   
+}
+
+.f-right3{
+     width: 170px;
+    height: 20px;
+  position: fixed;
+    left: 1150px;
+  color: #f0f0f0; 
+}
+	
+#masthead ul:after, #main:after, .post:after, #footer:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+	}
+
+/*ФОТО ГАЛЕРЕЯ*/
+#content-foto{
+   position: relative;
+    background: #cbcbcb;  
+}
+.galleri img{
+    max-width: 290px;
+    width: 100%;
+    object-fit: cover;
+    max-height: 215px;
+    margin: 10px;
+    border: 4px solid;
+    border-color: #53514a;   
+}
+a.foto-gallery:hover img {
+    border-color: #e07921;
+}
+
+
